@@ -1,0 +1,13 @@
+bookstore {
+    background-color: lightgray ;
+    display: block;
+    margin: 1em 0;
+}
+title {
+    color: red;
+    font-weight: bold;
+}
+book:nth-child(odd) {
+    display: block;
+    background-color: lightblue;
+}
